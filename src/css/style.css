@@ -1,0 +1,59 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;800&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+.conteiner{ font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
+    color: #ffffffbe;
+    text-align: center;
+    display: flex;
+    height: 100vh;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--advice-card-color);
+    max-width: 28rem;
+    border-radius: 10px;
+    min-height: 5rem;
+    margin: 20px;
+    min-width: 288px;
+}
+.advice-number{
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-top: 40px;
+}
+.advice-sort{
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 22px;
+}
+
+.divisoria{
+    width: 90%;
+
+}
+
+.advice-update {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.infos .advice-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
